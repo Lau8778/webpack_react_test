@@ -15,8 +15,8 @@ class App extends Component {
     componentWillMount(){
         //模拟获得数据
         const comments = [
-            {username:"lio",content:"So easy",stars:23},
-            {username:"leon",content:"WTF!!!",stars:65}
+            {username:"lio",content:"So easy",subTime:'2017/03/08 17:03:08',stars:23},
+            {username:"leon",content:"WTF!!!",subTime:'2016/06/06 16:06:06',stars:65}
         ]
         //更新数据
         this.setState({comments})

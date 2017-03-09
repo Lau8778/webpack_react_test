@@ -45,8 +45,17 @@ li {
     text-align: center;
 }
 
+.subTime {
+    width: 80px;
+    background: #fff;
+    position: absolute;
+    left: 15px;
+    bottom: 1px;
+    text-align: center;
+}
+
 .list-group-item .centence {
-  padding: 0px 50px;
+  padding: 10px 50px;
 }
 
 .user {
